@@ -1,7 +1,7 @@
 {
   "servers": [
      {
-     "ip": "45.88..35",
+     "ip": "45.88.9.35",
        "resource": "YB_Staffs",
       "owner_name": "يزن البخيت",
        "status": "active"
