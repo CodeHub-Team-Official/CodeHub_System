@@ -1,36 +1,19 @@
 {
-  "licenses": [
+  "servers": [
     {
-      "license_key": "SQ0AX-S2TYG-0LQ87-N303A",
-      "ip_hash": "a3f5c8e9d2b1f4a6",
-      "owner_name": "Ahmed",
+      "id": 3,
+      "ip_hash": "00000000619b5b49",
+      "owner_name": "YBv10",
+      "server_name": "CodeHUB",
       "resource": "CodeHub_Core",
-      "status": "approved",
-      "expires_at": "2026-12-31T23:59:59.000Z",
-      "max_players": 64,
-      "features": {
-        "anti_cheat": true,
-        "admin_panel": true
-      },
-      "notes": "Main server license"
-    },
-    {
-      "license_key": "DEMO1-DEMO2-DEMO3-DEMO4",
-      "ip_hash": "b7d2e4f1c9a8b5e3",
-      "owner_name": "Test User",
-      "resource": "CodeHub_Core",
-      "status": "pending",
-      "expires_at": null,
-      "max_players": 32,
-      "features": {},
-      "notes": "Awaiting approval"
+      "status": "active",
     }
   ],
   "config": {
-    "last_updated": "2026-02-02T15:30:00.000Z",
+    "last_updated": "2026-02-02T16:00:00Z",
     "version": "1.0.0",
+    "total_servers": 3,
     "check_interval": 300000,
-    "retry_attempts": 5,
     "cache_duration": 600000
   }
 }
