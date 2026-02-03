@@ -1,7 +1,7 @@
 {
   "servers": [
      {
-     "ip_hash": "000000000ac73ace",
+     "ip": "45.88.9.35",
        "resource": "CodeHub_Core",
       "owner_name": "Your Name",
        "status": "active"
