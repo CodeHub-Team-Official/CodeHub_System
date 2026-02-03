@@ -1,26 +1,36 @@
 {
   "licenses": [
     {
-      "id": 1,
-      "license_key": "ABCD1-EFGH2-IJKL3-MNOP4",
-      "server_ip": "192.168.1.1",
+      "license_key": "SQ0AX-S2TYG-0LQ87-N303A",
+      "ip_hash": "a3f5c8e9d2b1f4a6",
       "owner_name": "Ahmed",
-      "resource": "my-resource",
-      "created_by": "admin",
+      "resource": "CodeHub_Core",
       "status": "approved",
       "expires_at": "2026-12-31T23:59:59.000Z",
-      "created_at": "2026-02-02T10:00:00.000Z",
-      "last_check": "2026-02-02T15:30:00.000Z",
-      "last_ip": "192.168.1.1",
-      "check_count": 150,
-      "approved_by": "admin",
-      "approved_at": "2026-02-02T10:05:00.000Z",
-      "notes": "Test license"
+      "max_players": 64,
+      "features": {
+        "anti_cheat": true,
+        "admin_panel": true
+      },
+      "notes": "Main server license"
+    },
+    {
+      "license_key": "DEMO1-DEMO2-DEMO3-DEMO4",
+      "ip_hash": "b7d2e4f1c9a8b5e3",
+      "owner_name": "Test User",
+      "resource": "CodeHub_Core",
+      "status": "pending",
+      "expires_at": null,
+      "max_players": 32,
+      "features": {},
+      "notes": "Awaiting approval"
     }
   ],
-  "metadata": {
+  "config": {
     "last_updated": "2026-02-02T15:30:00.000Z",
     "version": "1.0.0",
-    "total_licenses": 1
+    "check_interval": 300000,
+    "retry_attempts": 5,
+    "cache_duration": 600000
   }
 }
